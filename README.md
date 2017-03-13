@@ -112,7 +112,44 @@ Use <em></em> to make words italicized. **em** means emphasis
 </body>
 </html>
 ```
-
+A more complex example: check out the color of dots
+```html
+<html>
+<head>
+	<title>test title</title>
+</head>
+<body>
+	<h1> Art list </h1>
+	<h2></h2>
+<!-- 	ol: ordered list
+	ul: unordered list
+	li: list item -->
+	<ol>
+		<li>art 1</li> 
+		<li>art 2</li>
+			<ul>
+				<li> art 2.1</li>
+				<li> art 2.2</li>
+					<ol> 
+						<li> classical music </li>
+						<li> rock music </li>  
+					</ol>
+				<li> art 2.3</li>
+			</ul>
+		<li>art 3</li>
+	</ol>
+	<ul>
+		<li> art a</li>
+		<li> <strong>art b</strong></li>
+				<ol> 
+					<li> performance art 1</li>
+					<li> performance art 2</li>  
+				</ol>
+		<li> <em>art c</em></li>
+	</ul>
+</body>
+</html>
+```
 
 
 
