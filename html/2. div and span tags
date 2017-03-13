@@ -1,0 +1,8 @@
+
+#div tag
+- allowing you to group things together (generic container) 
+- a block level element, if you use div tag in a line, it will break the line.
+
+#span tag
+- group thing together (also generic container)
+- an inline element, if you use div tag in a line, it will NOT break the line.
