@@ -1,6 +1,6 @@
 # Web-development
-Udemy course
-a nice example (http://codepen.io/Colt/pen/WQQVvE)
+Udemy course  
+a nice [example] 
 
 1. type **html** and hit **tab** to show the format
 ```html
@@ -32,3 +32,6 @@ a nice example (http://codepen.io/Colt/pen/WQQVvE)
 ```html
 
 ```
+
+
+[example]((http://codepen.io/Colt/pen/WQQVvE))
