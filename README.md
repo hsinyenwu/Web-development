@@ -34,5 +34,5 @@ a nice [example]
 ```
 
 
-[example](http://codepen.io/Colt/pen/WQQVvE)
+[example]:http://codepen.io/Colt/pen/WQQVvE
 
