@@ -1,6 +1,6 @@
 # Web-development
 Udemy course  
-a nice [example] 
+a nice and simple [example] 
 
 1. type **html** and hit **tab** to show the format
 ```html
