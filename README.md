@@ -11,7 +11,9 @@ Udemy course
 </body>
 </html>
 ```
- "title" will show up in the tab of the web browser. "body" is where we add the content.
+
+ "title" will show up in the tab of the web browser. It will not show up in the web browser, but important for web search. "body" is where we add the content.
+ 
 ```html
 <html>
 <head>
