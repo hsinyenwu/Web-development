@@ -1,4 +1,4 @@
 ### Add additional information to tags
-Format: /**<tag name="value"></tag>/**
+Format: ```html <tag name="value"></tag> ```
 
 
