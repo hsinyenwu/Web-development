@@ -27,7 +27,7 @@ a nice and simple [example]
 
 2. add comment by
  * type <!-- comment here blah blah blah -->
- * select a line and hit **command+/** in sublime
+ * select a line and hit **command+/** in sublime 
 
 3. add header
 ```html
@@ -43,6 +43,7 @@ a nice and simple [example]
 </html>
 ```
 Note: Header is a block level element: meaning each one of them get their own lines.
+Note: type h1 and hit tab to autocomplete <h1></h1>
 
 4. add text
 text is an inline element, NOT a block level element. Need to add the paragraph tag. The follow
@@ -74,8 +75,40 @@ Use <em></em> to make words italicized. **em** means emphasis
 	<h1> Header level 1 </h1>
 	<h2> Header level 2 </h2>
 	<h6> Header level 6 </h6>
+    <!-- Use strong and em -->
 	<p> <strong>Art is a diverse range of human activities in creating visual, auditory or performing artifacts (artworks), expressing the author's imaginative or technical skill, intended to be appreciated for their beauty or emotional power.</strong> In their <em>most general form</em> these activities include the production of works of art, the criticism of art, the study of the history of art, and the aesthetic dissemination of art. </p>
 	<p> The oldest documented forms of art are visual arts, which include creation of images or objects in fields including painting, sculpture, printmaking, photography, and other visual media. Architecture is often included as one of the visual arts; however ... </p>
+</body>
+</html>
+```
+
+6. ordered list and unordered list
+
+```html
+<html>
+<head>
+	<title>test title</title>
+</head>
+<body>
+	<h1> Art list </h1>
+	<h2></h2>
+<!-- 	ol: ordered list
+	ul: unordered list
+	li: list item -->
+	<ol>
+		<li>art 1</li> 
+		<li>art 2</li>
+		<li>art 3</li>
+	</ol>
+	<ul>
+		<li> art a</li>
+		<li> <strong> art b </strong></li>
+		<ol> 
+		<li> performance art 1 </li>
+		<li> performance art 2 </li>  
+		</ol>
+		<li> <em>art c</em></li>
+	</ul>
 </body>
 </html>
 ```
