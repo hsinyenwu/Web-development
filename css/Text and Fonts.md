@@ -1,0 +1,86 @@
+
+The html file:
+```html
+<html>
+<head>
+	<title>Fonts demo</title>
+	<link rel="stylesheet" type="text/css" href="HW.css">
+</head>
+<body>
+<h1>Text and Font</h1>
+<p> 
+	Art is a diverse range of human activities in creating visual, auditory or performing artifacts (artworks), expressing the author's imaginative or technical skill, intended to be <span>appreciated for their beauty or emotional power.</span> In their most general form these activities include the production of works of art, the criticism of art, the study of the history of art, and the aesthetic dissemination of art.
+</p>
+
+<p>
+	The oldest documented forms of art are visual arts, which include creation of images or objects in fields including painting, sculpture, printmaking, photography, and other visual media. Architecture is often included as one of the visual arts; however, like the decorative arts, or advertising, it involves the creation of objects where the practical considerations of use are essential-in a way that they usually are not in a painting, for example.  Music, theatre, film, dance, and other performing arts, as well as literature and other media such as interactive media, are included in a broader definition of art or the arts. Until the 17th century, art referred to any skill or mastery and was not differentiated from crafts or sciences. In modern usage after the 17th century, where aesthetic considerations are paramount, the fine arts are separated and distinguished from acquired skills in general, such as the decorative or applied arts.
+</p>
+
+<h2>h2 font h2 font h2 font</h2>
+</body>
+</html>
+```
+
+The CSS file to modify fonts
+```css
+/*The name of the css file is HW.css*/
+
+/*font-family*/
+p	{
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+/*font-size*/
+body {
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+/*em make relative font size*/
+/*here the font in span is increased twice as large*/
+span {
+	font-size: 2.0em;
+}
+
+/*font-weight: */
+h2 {
+	font-weight: bold;
+}
+
+h1 {
+	font-weight: lighter;
+}
+
+/*line-height*/
+p {
+	line-height: 20px;
+}
+
+/*text-align*/
+h1 {
+	text-align: right;
+}
+
+p {
+	text-align: center;
+}
+
+/*text-decoration*/
+/*give underline or strike of text*/
+
+p {
+	text-decoration: underline;
+}
+
+h2 {
+	text-decoration: line-through;
+}
+
+```
