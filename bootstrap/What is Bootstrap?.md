@@ -2,7 +2,7 @@
 
 [Bootstrap] is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. 
 * It is just a single css and a single javascript file. Help us to make good looking websites quickly.  
-  **Bootstrap is essentially adding classes to existing elements (classes are defined in the bootstrap.css file)**
+* **Bootstrap is essentially adding classes to existing elements (classes are defined in the bootstrap.css file)**
 * Go to the bootstrap website. You will see CSS, Components (Nav bar, Progress bar, bottons, dropdown manuels ...) and Javascript.  
 * It is just a lot of classes.
 * Find examples at: [Expo]
