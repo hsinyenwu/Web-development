@@ -1,6 +1,6 @@
 ### [Jumbotron]
 **A lightweight, flexible component that can optionally extend the entire viewport to showcase key content on your site.**  
-Start with class jumbotron in a div tag:  
+Start with class jumbotron in a *div* tag:  
 ```html
 <!doctype html>
 <html>
