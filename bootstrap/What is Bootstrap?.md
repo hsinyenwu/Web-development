@@ -99,7 +99,27 @@ Here use button to setup a link to google.
 </html>
 ```
 
+### Active or disable buttons
 
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+	<h1>Bootstrap</h1>
+	<div>
+		<button class="btn btn-default btn-info">Normal</button>
+		<button class="btn btn-default btn-info active">Active</button>
+		<button class="btn btn-default btn-info disabled">Disable</button>
+	</div>
+</body>
+</html>
+
+```
 
 
 [Expo]:https://expo.getbootstrap.com
