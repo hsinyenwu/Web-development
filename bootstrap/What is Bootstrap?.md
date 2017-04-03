@@ -71,10 +71,29 @@ It is simple. Just add a class.
 	<h1>Bootstrap</h1>
 	<div>
 		<!-- button with bootstrap -->
-		<button class="btn btn-default btn-lg">Large!</button>
-		<button class="btn btn-default">Normal!</button>
-		<button class="btn btn-default btn-sm">Small!</button>
-		<button class="btn btn-default btn-xs">Extra small!</button>
+		<button class="btn btn-default btn-lg">Large</button>
+		<button class="btn btn-default">Default</button>
+		<button class="btn btn-default btn-sm">Small</button>
+		<button class="btn btn-default btn-xs">Extra small</button>
+	</div>
+</body>
+</html>
+```
+### Use button on <a> element 
+
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+	<h1>Bootstrap</h1>
+	<div>
+		<!-- button with bootstrap -->
+		<a href="https://www.google.com" class= "btn btn-warning btn-lg">Google</a>
 	</div>
 </body>
 </html>
