@@ -13,7 +13,7 @@
 2. use a link tag for the CDN in the html file (i.e. the href in that case is the CDN file location).  
 
 ### Basic usage:
-You can see difference with or without the bootstrap link tag.
+You can see difference with or without the bootstrap link tag.  
 ```html
 <!doctype html>
 <html>
@@ -29,5 +29,36 @@ You can see difference with or without the bootstrap link tag.
 </html>
 ```
 
+### Add buttons:
+Go to [btn-groups]:  
+There are few examples to use bootstrap buttons:  
+
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+	<h1>Bootstrap</h1>
+	<div>
+		<!-- button without bootstrap -->
+		<button>Click!</button>
+		<!-- button with bootstrap -->
+		<button class="btn btn-default">default!</button>
+		<button class="btn btn-primary">primary!</button>
+		<button class="btn btn-success">success!</button>
+		<button class="btn btn-info">info!</button>
+		<button class="btn btn-warning">warning!</button>
+		<button class="btn btn-danger">danger!</button>
+	</div>
+</body>
+</html>
+```
+
 [Expo]:https://expo.getbootstrap.com
 [Bootstrap]:http://getbootstrap.com
+[btn-groups]:http://getbootstrap.com/components/#btn-groups
+
