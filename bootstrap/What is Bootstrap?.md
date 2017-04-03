@@ -121,7 +121,7 @@ Here use button to setup a link to google.
 ```
 
 ### Change bootstrap default setting
-Here change the background color of the *bin-info* class.   
+Here change the background color of the *bin-info* class to pink.   
 ```html
 <!doctype html>
 <html>
