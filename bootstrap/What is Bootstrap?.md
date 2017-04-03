@@ -118,10 +118,34 @@ Here use button to setup a link to google.
 	</div>
 </body>
 </html>
-
 ```
 
+### Change bootstrap default setting
+Here change the background color of the *bin-info* class.   
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+	<!-- change the bootstrap default setting -->
+	<!-- note we normally do styling in a separate css file -->
+	<style type="text/css">
+		.btn-info {
+			background: pink;
+		}
+	</style>
+
+</head>
+<body>
+	<h1>Bootstrap</h1>
+	<div>
+		<button class="btn btn-default btn-info">Normal</button>
+	</div>
+</body>
+</html>
+```
 [Expo]:https://expo.getbootstrap.com
 [Bootstrap]:http://getbootstrap.com
 [btn-groups]:http://getbootstrap.com/components/#btn-groups
