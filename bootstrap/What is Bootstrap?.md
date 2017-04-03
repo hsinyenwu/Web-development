@@ -57,6 +57,31 @@ There are few examples to use bootstrap buttons:
 </body>
 </html>
 ```
+Change button sizes:  
+It is simple. Just add a class.
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+	<h1>Bootstrap</h1>
+	<div>
+		<!-- button with bootstrap -->
+		<button class="btn btn-default btn-lg">Large!</button>
+		<button class="btn btn-default">Normal!</button>
+		<button class="btn btn-default btn-sm">Small!</button>
+		<button class="btn btn-default btn-xs">Extra small!</button>
+	</div>
+</body>
+</html>
+```
+
+
+
 
 [Expo]:https://expo.getbootstrap.com
 [Bootstrap]:http://getbootstrap.com
