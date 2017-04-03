@@ -79,7 +79,7 @@ It is simple. Just add a class.
 </body>
 </html>
 ```
-### Use button on <a> element 
+### Use button on \<a> element 
 
 ```html
 <!doctype html>
