@@ -18,9 +18,9 @@ Start with class jumbotron in a div tag:
 </body>
 </html>
 ```
-However, now everything aligns to the left.
-Add jumbotron to a container.
-*Note: class=jumbotron then class=container or class=container then class=jumbotron gives different result* 
+However, now everything aligns to the left.  
+Add jumbotron to a container.  
+*Note: class=jumbotron then class=container or class=container then class=jumbotron gives different result*  
 ```html
 <!doctype html>
 <html>
