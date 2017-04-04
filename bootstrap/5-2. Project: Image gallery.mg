@@ -1,1 +1,24 @@
+## Modifying the Plant image gallery
+
+Change the color in jumbotron, the color of the navbar components:
+```css
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand {
+	color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color:white;
+}
+```
+The reason we need to use ".navbar-inverse .navbar-brand" instead of ".navbar-brand" because it is very specific. If we just use ".navbar-inverse .navbar-brand", it will not work.  
+Use chrome inspector to figure out the specific pattern we need to use.  
+
 
